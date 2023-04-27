@@ -21,7 +21,7 @@ const char* password = "cocorumba";
 
 const char* ntpServer = "pool.ntp.org";
 const long  gmtOffset_sec = -14400;
-const int   daylightOffset_sec = 3600;
+const int   daylightOffset_sec = 0; // para evitar correccion por horario de verano JT
 
 void setup(){
   Serial.begin(115200);
